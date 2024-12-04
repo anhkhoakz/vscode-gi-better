@@ -24,6 +24,13 @@ The following dependencies are needed for this extension:
 
 To retrieve the `.gitignore` templates from `gitignore.io`, an active internet connection is necessary because the extension leverages **axios** for HTTP queries.
 
+## Usage
+
+1. **Open a Workspace Folder**: Before using the extension, ensure that a workspace folder is open in Visual Studio Code.
+2. **Access the Command Palette**: Press `Ctrl+Shift+P`(Windows) or `Ctrl+Shift+P`(MacOS, Linux) to open the command palette.
+3. **Execute the Command**: Type `gi: Generate .gitignore` in the command palette and press `Enter`. 3. **Select a Template**: A list of `.gitignore` templates will be displayed in the Quick Pick Interface. Use the search bar to filter the list.
+4. **Choose an Action**: Select whether you want to append the template to your existing `.gitignore` file or overwrite it.
+
 ## Known Issues
 
 -   **No Workspace Folder**: The extension cannot write to the `.gitignore` file if it is executed without a workspace folder open. Before utilizing the addon, make sure a workspace folder is open.
@@ -34,3 +41,7 @@ To retrieve the `.gitignore` templates from `gitignore.io`, an active internet c
 ### 1.0.0
 
 Initial release of vscode-gi-better.
+
+## 1.1.0
+
+Save cache of recently fetched templates for offline use and faster access.
