@@ -45,3 +45,7 @@ Initial release of vscode-gi-better.
 ## 1.1.0
 
 Save cache of recently fetched templates for offline use and faster access.
+
+## 1.1.1
+
+Fix issue with cache not being saved correctly.
