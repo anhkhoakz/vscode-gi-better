@@ -7,3 +7,7 @@
 ## 1.1.0 - 4 Dec 2024
 
 Save cache of recently fetched templates for offline use and faster access.
+
+## 1.1.1 - 4 Dec 2024
+
+Fix issue with cache not being saved correctly.
